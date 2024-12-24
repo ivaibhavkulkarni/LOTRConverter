@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showExchangeInfo = false
+    @State var leftAmount = ""
+    @State var rightAmount = ""
+    
     var body: some View {
         ZStack {
             // background image
@@ -46,8 +50,10 @@ struct ContentView: View {
                                 .foregroundStyle(.white)
                         }
                         
+                        .padding(.bottom, -5)
                         // text field
-                        Text("Text field")
+                        TextField("Amount", text: $leftAmount)
+                            .textFieldStyle(.roundedBorder)
                     }
                     
                     // equal symbol
@@ -71,17 +77,35 @@ struct ContentView: View {
                                 .scaledToFit()
                                 .frame(height: 33)
                         }
+                        
+                        .padding(.bottom, -5)
                         //text field
-                        Text("text field")
+                        TextField("Amount", text: $rightAmount)
+                            .textFieldStyle(.roundedBorder)
+                            .multilineTextAlignment(.trailing)
                     }
                 }
                 
+                .padding()
+                .padding(.bottom)
+                .background(.black.opacity(0.5))
+                .clipShape(.capsule)
                 Spacer()
                 
                 //info button
-                Image(systemName: "info.circle.fill")
-                    .font(.largeTitle)
-                    .foregroundStyle(.white)
+                HStack {
+                    Spacer()
+                    
+                    Button {
+                        showExchangeInfo.toggle()
+                        print("ShowExachangeInfo Value: \(showExchangeInfo)")
+                    } label:{
+                        Image(systemName: "info.circle.fill")
+                            .font(.largeTitle)
+                            .foregroundStyle(.white)
+                    }
+                    .padding(.trailing)
+                }
             }
         }
     }
