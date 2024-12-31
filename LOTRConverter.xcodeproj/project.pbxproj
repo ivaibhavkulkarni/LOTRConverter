@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		84914CFE2D12A8FC000DB3EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84914CE52D12A8FA000DB3EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84914CEC2D12A8FA000DB3EB;
-			remoteInfo = LOTRConverter;
-		};
-		84914D082D12A8FC000DB3EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84914CE52D12A8FA000DB3EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84914CEC2D12A8FA000DB3EB;
-			remoteInfo = LOTRConverter;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		84914CED2D12A8FA000DB3EB /* LOTRConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84914CFD2D12A8FC000DB3EB /* LOTRConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTRConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84914D072D12A8FC000DB3EB /* LOTRConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTRConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = LOTRConverter;
 			sourceTree = "<group>";
 		};
-		84914D002D12A8FC000DB3EB /* LOTRConverterTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LOTRConverterTests;
-			sourceTree = "<group>";
-		};
-		84914D0A2D12A8FC000DB3EB /* LOTRConverterUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LOTRConverterUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84914CEA2D12A8FA000DB3EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84914CFA2D12A8FC000DB3EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84914D042D12A8FC000DB3EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				84914CEF2D12A8FA000DB3EB /* LOTRConverter */,
-				84914D002D12A8FC000DB3EB /* LOTRConverterTests */,
-				84914D0A2D12A8FC000DB3EB /* LOTRConverterUITests */,
 				84914CEE2D12A8FA000DB3EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				84914CED2D12A8FA000DB3EB /* LOTRConverter.app */,
-				84914CFD2D12A8FC000DB3EB /* LOTRConverterTests.xctest */,
-				84914D072D12A8FC000DB3EB /* LOTRConverterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = 84914CED2D12A8FA000DB3EB /* LOTRConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84914CFC2D12A8FC000DB3EB /* LOTRConverterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84914D142D12A8FC000DB3EB /* Build configuration list for PBXNativeTarget "LOTRConverterTests" */;
-			buildPhases = (
-				84914CF92D12A8FC000DB3EB /* Sources */,
-				84914CFA2D12A8FC000DB3EB /* Frameworks */,
-				84914CFB2D12A8FC000DB3EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84914CFF2D12A8FC000DB3EB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				84914D002D12A8FC000DB3EB /* LOTRConverterTests */,
-			);
-			name = LOTRConverterTests;
-			packageProductDependencies = (
-			);
-			productName = LOTRConverterTests;
-			productReference = 84914CFD2D12A8FC000DB3EB /* LOTRConverterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		84914D062D12A8FC000DB3EB /* LOTRConverterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84914D172D12A8FC000DB3EB /* Build configuration list for PBXNativeTarget "LOTRConverterUITests" */;
-			buildPhases = (
-				84914D032D12A8FC000DB3EB /* Sources */,
-				84914D042D12A8FC000DB3EB /* Frameworks */,
-				84914D052D12A8FC000DB3EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84914D092D12A8FC000DB3EB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				84914D0A2D12A8FC000DB3EB /* LOTRConverterUITests */,
-			);
-			name = LOTRConverterUITests;
-			packageProductDependencies = (
-			);
-			productName = LOTRConverterUITests;
-			productReference = 84914D072D12A8FC000DB3EB /* LOTRConverterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					84914CEC2D12A8FA000DB3EB = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					84914CFC2D12A8FC000DB3EB = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 84914CEC2D12A8FA000DB3EB;
-					};
-					84914D062D12A8FC000DB3EB = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 84914CEC2D12A8FA000DB3EB;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				84914CEC2D12A8FA000DB3EB /* LOTRConverter */,
-				84914CFC2D12A8FC000DB3EB /* LOTRConverterTests */,
-				84914D062D12A8FC000DB3EB /* LOTRConverterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		84914CEB2D12A8FA000DB3EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84914CFB2D12A8FC000DB3EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84914D052D12A8FC000DB3EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84914CF92D12A8FC000DB3EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84914D032D12A8FC000DB3EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		84914CFF2D12A8FC000DB3EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84914CEC2D12A8FA000DB3EB /* LOTRConverter */;
-			targetProxy = 84914CFE2D12A8FC000DB3EB /* PBXContainerItemProxy */;
-		};
-		84914D092D12A8FC000DB3EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84914CEC2D12A8FA000DB3EB /* LOTRConverter */;
-			targetProxy = 84914D082D12A8FC000DB3EB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		84914D0F2D12A8FC000DB3EB /* Debug */ = {
@@ -446,78 +302,6 @@
 			};
 			name = Release;
 		};
-		84914D152D12A8FC000DB3EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3G76Q83G78;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ivaibhavkulkarni.LOTRConverterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOTRConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LOTRConverter";
-			};
-			name = Debug;
-		};
-		84914D162D12A8FC000DB3EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3G76Q83G78;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ivaibhavkulkarni.LOTRConverterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOTRConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LOTRConverter";
-			};
-			name = Release;
-		};
-		84914D182D12A8FC000DB3EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3G76Q83G78;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ivaibhavkulkarni.LOTRConverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LOTRConverter;
-			};
-			name = Debug;
-		};
-		84914D192D12A8FC000DB3EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3G76Q83G78;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ivaibhavkulkarni.LOTRConverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LOTRConverter;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -535,24 +319,6 @@
 			buildConfigurations = (
 				84914D122D12A8FC000DB3EB /* Debug */,
 				84914D132D12A8FC000DB3EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84914D142D12A8FC000DB3EB /* Build configuration list for PBXNativeTarget "LOTRConverterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84914D152D12A8FC000DB3EB /* Debug */,
-				84914D162D12A8FC000DB3EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84914D172D12A8FC000DB3EB /* Build configuration list for PBXNativeTarget "LOTRConverterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84914D182D12A8FC000DB3EB /* Debug */,
-				84914D192D12A8FC000DB3EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
