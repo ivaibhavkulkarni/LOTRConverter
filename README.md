@@ -2,20 +2,11 @@
 
 LOTR Converter is a fun and interactive iOS app that helps users convert fictional currencies from the world of fantasy. Whether you’re trading Gold Pieces or counting Copper Pennies, this app provides an intuitive way to visualize and calculate exchange rates between these currencies.
 
-## Features
--	Currency Conversions:
--	1 Gold Piece = 4 Gold Pennies
--	1 Gold Penny = 4 Silver Pieces
--	1 Silver Piece = 4 Silver Pennies
--	1 Silver Penny = 100 Copper Pennies
--	Interactive UI:
--	Visually appealing representations of each currency using images.
--	Clear and concise exchange rate descriptions.
--	Designed with SwiftUI for a seamless user experience.
+## 💡 Key Features:
+	•	Interactive currency selection using SwiftUI’s bindings and dynamic views.
+	•	Conversion logic powered by custom data models and enums.
+	•	User-friendly UI with immersive visuals, including backgrounds, icons, and overlays.
 
-## Main Screen
-
-View the exchange rates with currency images and descriptions.
 
 ## Conversion Flow
 
@@ -51,15 +42,11 @@ We welcome contributions to improve this project! Feel free to:
 	2.	Create a feature branch.
 	3.	Submit a pull request.
 
-## Screenshots
-### App Icon
-<img src="https://github.com/user-attachments/assets/2030be5f-dc84-4580-b570-dcea4c13e331" alt="Main Screen" width="400">
+## Screen Recording
 
-### Main Screen
-<img src="https://github.com/user-attachments/assets/99e5335a-6052-414a-a2dc-9dc8138f1421" alt="Conversion Details" width="400">
+https://github.com/user-attachments/assets/5394d8af-4572-4e01-b909-805ff09e9cf6
 
-### Info Screen 
-<img src="https://github.com/user-attachments/assets/b5527b59-c657-49f7-8aca-507661cd9025" alt="UI Flow" width="400">
 
-Will add video SOON
+
+
 My first iOS App 😊
