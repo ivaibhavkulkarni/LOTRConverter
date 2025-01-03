@@ -3,9 +3,9 @@
 LOTR Converter is a fun and interactive iOS app that helps users convert fictional currencies from the world of fantasy. Whether you’re trading Gold Pieces or counting Copper Pennies, this app provides an intuitive way to visualize and calculate exchange rates between these currencies.
 
 ## 💡 Key Features:
-	•	Interactive currency selection using SwiftUI’s bindings and dynamic views.
-	•	Conversion logic powered by custom data models and enums.
-	•	User-friendly UI with immersive visuals, including backgrounds, icons, and overlays.
+- Interactive currency selection using SwiftUI’s bindings and dynamic views.
+- Conversion logic powered by custom data models and enums.
+- User-friendly UI with immersive visuals, including backgrounds, icons, and overlays.
 
 
 ## Conversion Flow
@@ -31,7 +31,7 @@ Usage
 	•	Enjoy the fantasy-themed visuals and intuitive navigation.
 
 ## Technologies Used
--	SwiftUI: For building the user interface.
+- SwiftUI: For building the user interface.
 - Swift 
 - Xcode: Development and testing environment.
 
